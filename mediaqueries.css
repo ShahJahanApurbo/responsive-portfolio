@@ -1,8 +1,54 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .profile {
+    flex-direction: column;
+    gap: 3rem;
+    height: 70vh;
+  }
+  .about-container {
+    flex-direction: column;
+    height: 110vh;
+    gap: 2.5rem;
+  }
+  .about-professional {
+    flex-direction: column;
+  }
+  .about-text {
+    width: 21rem;
+  }
+  .about-professional {
+    margin-bottom: 1rem;
+  }
+  .experience-content {
+    flex-direction: column;
+    height: 80vh;
+  }
+  .frontend {
+    border: #333 0.15rem solid;
+    padding: 1rem;
+  }
+  .frontend-skills {
+    gap: 1rem;
+  }
+  .education-container {
+    height: 105vh;
+  }
+  .education-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .education-text {
+    width: 22rem;
+    gap: 2rem;
+    margin-bottom: 0;
+    padding: 1rem;
   }
 }
