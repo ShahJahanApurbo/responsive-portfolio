@@ -52,3 +52,34 @@
     padding: 1rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    gap: 3rem;
+    height: 70vh;
+  }
+  .about-container {
+    flex-direction: column;
+    height: 80vh;
+    gap: 2.5rem;
+  }
+  .experience-content {
+    flex-direction: column;
+    height: 90vh;
+  }
+  .education-container {
+    height: 120vh;
+  }
+  .education-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 10rem;
+  }
+  .education-text {
+    width: 22rem;
+    gap: 3rem;
+    margin-bottom: 0;
+    padding: 3rem;
+  }
+}

@@ -151,6 +151,12 @@ a:hover {
   /* align-items: center; */
   gap: 1rem;
 }
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 
 .profile-image > img {
   width: 250px;
@@ -268,7 +274,7 @@ a:hover {
   height: 2.5rem;
 }
 .about-text {
-  width: 21rem;
+  width: 38rem;
   font-size: 1rem;
   font-weight: 300;
   color: #333;
